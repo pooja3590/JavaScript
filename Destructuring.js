@@ -6,7 +6,8 @@ let [p1,p2,p3,p4] =cityL1
 console.log (p1)
 
 let Category = [["onion","tomato","patato"],["carrot","radish","cucumber"],["spinach","cauliflower","cabbage"]]
-console.log (Category.length)
+console.log (Category[0][1])
+
 let [[p11,p12,p13],[p14,p15,p16],[p17,p18,p19]] = Category
 console.log (p11,p12,p19,p15)
 
