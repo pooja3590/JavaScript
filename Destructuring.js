@@ -41,9 +41,14 @@ let SchoolL1 ={
 }
 }
 
-let {Name} = SchoolL1
+let {Name:N21,class:[C21,C222],TeacherName:{Teacher1:T11}} = SchoolL1
+console.log (N21)
+console.log (C21,C222)
+console.log (T11)
 
-//Place:P2,class:[Sec1]
+
+
+
 
 
 
