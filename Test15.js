@@ -26,6 +26,32 @@ let students = [
 
 ]
 
-students.forEach(function(el)){
-    console.log(students.firstName)
-}
+students.forEach(function(el){
+    console.log(students.firstName[0]) 
+})
+
+students.forEach(function(el){
+    console.log(`${el.firstName}:${el.skills.length}`)
+})
+
+students.forEach(function(el){
+    if(el.age < 30)
+        console.log (el.skills)
+})
+
+students.forEach(function(el){
+    if (el.skills.includes("python")){
+        console.log(el.firstName)
+    }
+})
+
+
+// print name of students with python
+//students.forEach(function(el){
+  //  if(el.skills.includes("python")){
+    //    console.log(el.firstName)
+    //}
+//})
+
+
+
