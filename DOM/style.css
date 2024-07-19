@@ -5,4 +5,10 @@ h1 {
 p {
     color:red
 }
-
+h2{
+    color: blue;
+    background-color: aqua;
+}
+button{
+    color: green;
+}
