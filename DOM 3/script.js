@@ -1,14 +1,16 @@
-let Heading = document.querySelector(h1)
+let Heading = document.querySelector('h1')
 console.log(Headingeading)
-let Inputtext = document.querySelector(input)
-console.log(Inputtext)
-let ButtonB1 = document.querySelector(button)
+let InputT1 = document.querySelector('input')
+console.log(InputT1)
+let ButtonB1 = document.querySelector('button')
 console.log (ButtonB1)
 
 ButtonB1.addEventListener('click',function(){
-    let Colortext = Inputtext.value
-    Headingeading.style.color = Colortext
+    let readvalue = InputT1.value
+    Headingeading.style.color = readvalue
 })
+
+
 
 
 
