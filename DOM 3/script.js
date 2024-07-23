@@ -1,0 +1,6 @@
+let Heading = document.querySelector(h1)
+console.log(heading)
+let Inputtag = document.querySelector(input)
+console.log(inputtag)
+let ButtonB1 = document.querySelector(button)
+console.log (ButtonB1)
