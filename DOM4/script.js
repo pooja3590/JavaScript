@@ -9,8 +9,9 @@ console.log(listL1)
 
 buttonB2.addEventListener('click',function(){
     let addvalue = inputT.value
-    let newele = document.createElement('ul')
-    newele.textContent = addvalue
-    listL1.appendchild(newele)
-
+    let newLi = document.createElement('li')
+    newLi.textContent = addvalue
+    listL1.appendchild(newLi)
 })
+
+
