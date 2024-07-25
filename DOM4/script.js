@@ -11,7 +11,8 @@ buttonB2.addEventListener('click',function(){
     let addvalue = inputT.value
     let newLi = document.createElement('li')
     newLi.textContent = addvalue
-    listL1.appendchild(newLi)
+    listL1.appendChild(newLi)
+    inputT.value=""
 })
 
 
