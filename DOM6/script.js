@@ -22,7 +22,24 @@ console.log(AL1)
 
 for (i=0; i<allli.length;i++){
     console.log(i)
-    console.log(allli.length[i].textContent)
-    allli.length[i].style.color="red"
-    
+    console.log(allli[i].textContent)
+    allli[i].style.color="Green"
+
+}
+
+li.addEventListener('click',function(){
+    for (i=0; i<allli.length;i++){
+        console.log(i)
+        console.log(allli[i].textContent)
+        allli[i].style.color="red"
+      }
+})
+
+
+for (i=0; i<allli.length;i++){
+    if(i%2==0)
+        allli[i].style.color="Blue"
+    else{
+        allli[i].style.color="Pink"
+    }
 }
