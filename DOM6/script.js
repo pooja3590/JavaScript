@@ -24,5 +24,5 @@ for (i=0; i<allli.length;i++){
     console.log(i)
     console.log(allli.length[i].textContent)
     allli.length[i].style.color="red"
-
+    
 }
